@@ -102,16 +102,33 @@ html {
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #222;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
     padding: 2em;
     font-size: 1.25em;
     height: 100%;
 }
 
+header,
+footer {
+    min-height: 80px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+main {
+    padding: 0px 20px;
+    width: 100%;
+}
+
+footer a {
+    color: whitesmoke;
+}
+
 .wrapper {
     /*add display:flex and set justify-content to space-between*/
     display: flex;
-    font-weight: 700;
     justify-content: space-between;
 }
 
@@ -120,14 +137,13 @@ body {
 .div-3 {
     /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
     align-items: center;
-    background-color: #222;
-    color: whitesmoke;
     display: flex;
     font-size: .9em;
     height: 300px;
     justify-content: center;
     line-height: 1.5em;
-    padding: 20px;
+    margin: 20px 0;
+    padding: 0 20px;
     width: 30%;
 }
 
